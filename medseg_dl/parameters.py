@@ -17,11 +17,10 @@ def fetch_options(idx_dataset=0):
     op.device = '0'  # standard device, can be bypassed if device is provided during call
 
     # i/o
-    op.path_parser_cfg = '/no_backup/d1280/software/rep_medio_NAKO/cfgs/io_patterns_nako.yaml'
+    op.path_parser_cfg = '/home/io_patterns_nako.yaml'
 
     if idx_dataset == 0:
-        #op.dir_data = '/home/d1280/no_backup/d1280/software/NAKO_200_tf'
-        op.dir_data = '/home/d1280/med_data_decr/NAKO/NAKO_200/'
+        op.dir_data = '/home/NAKO/'
     else:
         raise ValueError('Chosen dataset idx is not available')
 
