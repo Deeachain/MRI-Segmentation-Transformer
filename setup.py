@@ -12,7 +12,7 @@ from setuptools import setup, find_packages
 import os
 
 setup(
-    name='meseg_dl',
+    name='medseg_dl',
     description='Medical Image Segmentation',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     package_dir={'medseg_dl': 'medseg_dl'},
