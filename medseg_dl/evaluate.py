@@ -92,9 +92,9 @@ def main(dir_model, non_local = 'disable', attgate = 'disable', device = None):
 
 if __name__ == '__main__':
 
-    model_dir_base = '/home/d1280/no_backup/d1280/software/rep_medseg_dl/medseg_dl/experiments/new_stage_13/stage13_realshuffle_attgate_batch24_l2_repeat10_shuffle_eval_reminder_timout6000_K'
-    #run = 'run_2018-11-30T15-25-56'
-    run = 'run_2019-04-30T18-21-11'
+    model_dir_base = '/home/stage13_realshuffle_attgate_batch24_l2_repeat10_shuffle_eval_reminder_timout6000_K'
+
+    run = 'catalog_in_model_dir_base'
     model_dir = os.path.join(model_dir_base, run)
     device = '2'
     non_local = 'disable'
