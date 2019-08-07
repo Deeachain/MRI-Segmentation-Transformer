@@ -103,8 +103,8 @@ def main(dir_model, non_local='disable', attgate='disable', device=None, idx_dat
 if __name__ == '__main__':
     # model
     # model_dir = '/home/rog/PycharmProjects/rep_medseg_dl/medseg_dl/experiments/model_basic'
-    model_dir = '/home/d1280/no_backup/d1280/software/rep_medseg_dl/medseg_dl/experiments/new_stage_13/stage13_realshuffle_attgate_batch24_l2_repeat10_shuffle_eval_reminder_timout6000_K'
-
+    model_dir = '/home/stage13_realshuffle_attgate_batch24_l2_repeat10_shuffle_eval_reminder_timout6000_K'
+  
     # crucial parameters
     logging.info('Received the following input(s): %s', str(sys.argv))
 
