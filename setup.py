@@ -4,9 +4,6 @@
 """
 The python setup script.
 
-Created on Fri Oct 16, 2018
-
-@author: Marc
 """
 
 from setuptools import setup, find_packages
@@ -15,11 +12,8 @@ from setuptools import setup, find_packages
 import os
 
 setup(
-    name='medseg_dl',
-    version='0.0.2',
-    author='kSpace Astronauts',
-    author_email='marc.fischer@iss.uni-stuttgart.de',
-    description='Medical DL Segmentation',
+    name='meseg_dl',
+    description='Medical Image Segmentation',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     package_dir={'medseg_dl': 'medseg_dl'},
     packages=['medseg_dl', 'medseg_dl.model'],
