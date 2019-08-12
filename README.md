@@ -2,6 +2,8 @@ The framework is provided to perform segmentation on medical images. It establis
 
 Network architectures including 3d u-net, non-local neural network, attention u-net are proposed.
 
+Models trained on NAKO dataset
+
 ## Installation
 
 use pip3 (with a venv)
