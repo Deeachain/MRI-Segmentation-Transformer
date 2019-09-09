@@ -43,6 +43,7 @@ def main(dir_model, non_local='disable', attgate='disable', device=None, idx_dat
                                                            path_parser_cfg=params.dict['path_parser_cfg'],
                                                            set_split=params.dict['set_split'],
                                                            b_recreate=True)
+    #return 2 list, train:[[[70][70]],[[70(Label)]]],  eval:[[[10][10]],[[10(Label)]]]
 
     # Create a tf.data pipeline
     logging.info('Creating the pipeline...')
