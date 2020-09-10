@@ -32,4 +32,4 @@ It can capture the long-range dependencies between pixels more properly, check t
 
 Its architecture as following:  
 
-![gifview](mdpics/bookstoreregist.gif) 
+![gifview](imgs/non-local.PNG) 
