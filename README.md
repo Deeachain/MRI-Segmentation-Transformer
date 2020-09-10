@@ -33,3 +33,7 @@ It can capture the long-range dependencies between pixels more properly, check t
 Its architecture as following:  
 
 <img src="imgs/non-local.PNG" width="70%">
+
+### 3d U-net as baseline
+Baseline architecture is a 4-stages 3d u-net, as following:  
+
