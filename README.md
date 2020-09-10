@@ -32,4 +32,4 @@ It can capture the long-range dependencies between pixels more properly, check t
 
 Its architecture as following:  
 
-![gifview](imgs/non-local.PNG) 
+<img src="imgs/non-local.PNG" width="70%">
