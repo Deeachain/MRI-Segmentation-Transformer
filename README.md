@@ -9,7 +9,7 @@ NAKO Dataset：
 
 Used network architectures including 3d u-net, non-local neural network, attention u-net are proposed.  
 
-
+Arxiv:  
 
 ## Installation
 
@@ -49,3 +49,6 @@ Baseline architecture is a 4-stages 3d u-net, as following:
 ## Results
 Achieve an average accurancy of 97% of all classes.  
 
+<img src="imgs/results1.png" width="60%">  
+
+<img src="imgs/exp001shape.PNG" width="50%"> 
