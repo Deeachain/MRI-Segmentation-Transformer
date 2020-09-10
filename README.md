@@ -1,8 +1,15 @@
+## Overview
 This framework is provided to perform pixel-level segmentation of human liver, spleen, pancreas and kidney, based on MR images provided by German National Cohort(NAKO Dataset), using deep-learning method, and visualized the results. It establishes all functionality needed to operate on 3D images with a patch-based architecture.  
 
-Network architectures including 3d u-net, non-local neural network, attention u-net are proposed.
+NAKO Dataset：  
+- Over 3400 labeled MRI images from thousands patients
+- Over 500 MRI images for evaluation  
 
-Models trained on NAKO dataset
+<img src="imgs/overview.png" width="30%">  
+
+Used network architectures including 3d u-net, non-local neural network, attention u-net are proposed.  
+
+
 
 ## Installation
 
@@ -36,4 +43,9 @@ Its architecture as following:
 
 ### 3d U-net as baseline
 Baseline architecture is a 4-stages 3d u-net, as following:  
+
+<img src="imgs/u-net.PNG" width="70%">  
+
+## Results
+Achieve an average accurancy of 97% of all classes.  
 
