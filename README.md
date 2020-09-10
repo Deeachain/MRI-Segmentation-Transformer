@@ -28,7 +28,7 @@ For prediction use
 ### non-local neural network
 Inspired by the popular NLP Transformer architecture proposed by Google in 2017, an architecture of similar idea is proposed for image processing, the non-local neural networks.  
 
-It can capture the long-range dependencies between pixels more properly, check the parper from Wang Xiaolong https://arxiv.org/abs/1711.07971  
+It can capture the long-range dependencies between pixels more properly, check the paper from Wang Xiaolong https://arxiv.org/abs/1711.07971  
 
 Its architecture as following:  
 
